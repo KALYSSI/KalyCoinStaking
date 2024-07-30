@@ -50,7 +50,7 @@ export const Stake = () => {
           <span className={s.page_rate_value}>
             {totalRate ? totalRate : "0"}
           </span>
-          <span className={s.page_rate_desc}> KLC/WEEK</span>
+          <span className={s.page_rate_desc}> KLC/YEAR</span>
         </p>
       </div>
       <TransactionForm
